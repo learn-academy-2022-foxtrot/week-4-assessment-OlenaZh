@@ -68,8 +68,8 @@ describe('shuffleArray', () => {
 
 // declare a function and name it shuffleArray.
 //use shift() method to remove the first element(element at the [0]index)
-//use Fisher-Yates shuffle algorithm to shuffle (rendomly reorder) elements
-//use Math.randome() to generate randome index from 0 to i
+//use Fisher-Yates shuffle algorithm to shuffle (randomly reorder) elements
+//use Math.random() to generate random index from 0 to i
 //swap elements array[i] and array[j]; use destructuring assignment syntax to achieve that
 //return arr
 
@@ -161,7 +161,7 @@ describe('totalVotes', () => {
 
 //declare a function and name it totalVotes
 //pass an obj as a parameter
-//object upVotes value - objectdownVotes value
+//object upVotes value - object downVotes value
 
 const totalVotes = (obj) => {
     return obj.upVotes - obj.downVotes;
@@ -178,14 +178,14 @@ const totalVotes = (obj) => {
 // Ran all test suites.
 // ✨  Done in 0.56s.
 //-------------------------------------------------------------------------------------------
-// --------------------3) Create a function that takes in two arrays as rguments and 
+// --------------------3) Create a function that takes in two arrays as arguments and 
 // returns one array with no duplicate values. STRETCH: Use the spread operator to pass 
 // in a dynamic number of arguments.
 //-------------------------------------------------------------------------------------------
 // a) Create a test with an expect statement using the variables provided.
 
 describe('noDuplicateArr', () => {   
-    it('takes in two arrays as rguments and returns one array with no duplicate values.', () => {
+    it('takes in two arrays as arguments and returns one array with no duplicate values.', () => {
      //PROVIDED VARIABLES
     const dataArray1 = ["array", "object", "number", "string", "Boolean"]
     const dataArray2 = ["string", "null", "Boolean", "string", "undefined"]
@@ -198,9 +198,9 @@ describe('noDuplicateArr', () => {
 //-----------------------------------------||INITIAL TEST RESULTS||-----------------------------------
 // FAIL  ./code-challenges.test.js
 //   noDuplicateArr
-//     ✕ takes in two arrays as rguments and returns one array with no duplicate values.
+//     ✕ takes in two arrays as arguments and returns one array with no duplicate values.
 
-//   ● noDuplicateArr › takes in two arrays as rguments and returns one array with no duplicate values.
+//   ● noDuplicateArr › takes in two arrays as arguments and returns one array with no duplicate values.
 
 //     ReferenceError: noDuplicateArr is not defined
 
@@ -225,10 +225,10 @@ describe('noDuplicateArr', () => {
 
 // b) Create the function that makes the test pass.
 
-//declare a function and name it nonoDuplicateArr
+//declare a function and name it noDuplicateArr
 //pass 2 parameters (arr1, arr2)
 //use concat() method to combine two arrays into one
-//use set() method to remove duplicats from the rray. 
+//use set() method to remove duplicates from the array. 
     //1-st -> convert an array of duplicates to a Set. The new Set will implicitly remove duplicates elements.
     //2-nd -> convert the set back to an array
 //return new, modified array (uniqueArr)
@@ -243,7 +243,7 @@ const noDuplicateArr = (arr1, arr2) => {
 //-----------------------------------||TEST RESULT||---------------------------------------------
 // PASS  ./code-challenges.test.js
 // noDuplicateArr
-//   ✓ takes in two arrays as rguments and returns one array with no duplicate values. (1 ms)
+//   ✓ takes in two arrays as arguments and returns one array with no duplicate values. (1 ms)
 
 // Test Suites: 1 passed, 1 total
 // Tests:       1 passed, 1 total

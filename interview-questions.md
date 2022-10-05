@@ -16,17 +16,17 @@ Researched answer:
 In addition, the basic elements of functional programming are Variables and Functions. 
 But the basic elements of OOP are objects and methods.
 The functional programming is used only when there are few things/fixed sed of things, with more operations -> as you code evolves, you primarily add new operations on existing things..
-And OOP is used when there are many things with few operations/fixed set of oerations on things - > primarily add new things. 
+And OOP is used when there are many things with few operations/fixed set of operations on things - > primarily add new things. 
 In OOP data is stored in objects. 
 # I found this rerource very helpful: https://medium.com/@shaistha24/functional-programming-vs-object-oriented-programming-oop-which-is-better-82172e53a526
 
 2. What is the difference between a Float and an Integer in Ruby?
 
 Your answer:
-In Ruby Integer is a number, but if expect decimal or fractions, we need to use Float. For example, when we devide one number by another, we need to use float to have more accurate result.  (Ex.: 7.0 / 3 )
+In Ruby Integer is a number, but if expect decimal or fractions, we need to use Float. For example, when we divide one number by another, we need to use float to have more accurate result.  (Ex.: 7.0 / 3 )
 
 Researched answer:
-Boath Float and Integer are kind of numeric data. An Integer (int) is a number without a decimal point. A Float is a number with a decimal point (Ex.: 7.0). Float is used when more precision is needed. 
+Both Float and Integer are kind of numeric data. An Integer (int) is a number without a decimal point. A Float is a number with a decimal point (Ex.: 7.0). Float is used when more precision is needed. 
 
 3. Ruby has an implicit return. What does that mean?
 
@@ -34,7 +34,7 @@ Your answer:
 Implicit return  - > You may not use keyword return in Ruby, because Ruby has an implicit return.  It means that it returns the last line of every method automatically unless otherwise state. 
 
 Researched answer:
-When a Function is returned values without using the return keyward, it is called Implicit return. Implicit return in Ruby means that the method will return the result of the final line beforre the end keyword.
+When a Function is returned values without using the return keyword, it is called Implicit return. Implicit return in Ruby means that the method will return the result of the final line before the end keyword.
 
 4. What is a block in Ruby?
 
@@ -42,7 +42,7 @@ Your answer:
 Blocks in Ruby are basically an anonymous function.Blocks are defined using keywords do and end. As a rule, blocks determine what action is to be performed.  
 
 Researched answer:
-In Ruby there are many mathods for iteration. An anonymous function that is passed to a method to determin what action is to be performed is A Block. 
+In Ruby there are many methods for iteration. An anonymous function that is passed to a method to determine what action is to be performed is A Block. 
 A parameter is passed to the block, to determine what is happening to each value. We define the parameter inside of pipes | here | 
 There are 2 ways to define blocks:
  - by using keywords do and end (with the multiline code)
@@ -82,6 +82,10 @@ In Ruby Hashes are similar to JavaScript Objects. It has key:value structure. To
 
 3. ORM:object-relational mapping
 
-4. Active Record:
+4. Active Record: Active Record it is a layer of Ruby code that runs between your database and your logic code. When you need to make changes to the database, you will write Ruby code, and then run "migrations" 
+ which makes the actual changes to the database. 
+5. Migrations: If I understood correctly, Migrations are actually Classes. 
+A Migration is a subclass of ActiveRecord::Migration that implements 2 methods:
+ - up -> perform the required transformations
+ - down -> return the required transformations
 
-5. Migrations: 
